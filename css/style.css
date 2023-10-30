@@ -1,0 +1,427 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   transition: all 1s;
+   font-family: 'Alegreya Sans', sans-serif;
+ }
+
+ body,
+ html {
+   scroll-behavior: smooth;
+ }
+
+
+ #topBtn {
+   color: #fff;
+   background-color: #353330;
+   position: fixed;
+   bottom: 15px;
+   right: 15px;
+   opacity: 0.5;
+   padding: 8px;
+   border-radius: 50%;
+ }
+
+ #topBtn:hover {
+   opacity: 1;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ #home {
+   background-image: url(../images/drew-coffman-1872.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100%;
+ }
+
+ #home nav {
+   padding: 0 5%;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+
+ #home .logo {
+   width: 12%;
+   display: inline-block;
+   margin-right: 45%;
+   vertical-align: middle;
+ }
+
+ img {
+   width: 100%;
+ }
+
+ #home nav {
+   overflow: hidden;
+ }
+
+ #home .nav-item {
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+ #home ul {
+   font-size: 20px;
+   list-style-type: none;
+   float: right;
+ }
+
+ #home ul li {
+   display: inline-block;
+   padding: 0 20px;
+ }
+
+ #home ul li a {
+   color: #969696;
+ }
+
+ #home ul li a:hover {
+   color: #8F7854;
+ }
+
+ #home nav .active {
+   color: #fff;
+   border-top: 2px solid #fff;
+   padding-top: 5px;
+ }
+
+ #home .overlay {
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   background-color: rgba(0, 0, 0, 0.5);
+   text-align: center;
+ }
+
+ #home .content {
+   padding-top: 200px;
+ }
+
+ #home h1 {
+   font-size: 70px;
+   margin: 25px 0;
+ }
+
+ #home .wel-para {
+   font-size: 22px;
+ }
+
+ #home .main-para {
+   font-size: 24px;
+   width: 54%;
+   margin: auto;
+ }
+
+ #home button {
+   color: #fff;
+   border-radius: 5px;
+ }
+
+ #home .learn-btn {
+   padding: 15px 25px;
+   background-color: #8F7854;
+   border: none;
+ }
+
+ #home .contact-btn {
+   padding: 13px 23px;
+   background-color: transparent;
+   border: 2px solid #fff;
+   margin: 25px 10px 0px;
+ }
+
+ #home button:hover {
+   background-color: #fff;
+   color: #8F7854;
+ }
+
+ .down-btn {
+   margin: 80px auto 0;
+   width: fit-content;
+   padding: 50px;
+ }
+
+ /* ________________ about ________________  */
+
+ #about {
+   padding: 5%;
+ }
+
+ #about .about-image {
+   width: 40%;
+   display: inline-block;
+   margin-right: 5%;
+   vertical-align: middle;
+ }
+
+ #about .about-content {
+   width: 50%;
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+ #about .main-para {
+   margin: 30px 0;
+ }
+
+ #about .icons p {
+   margin: 15px 0;
+ }
+
+ #about i {
+   color: #8F7854;
+   border: 1px solid #D9D9D9;
+   border-radius: 50%;
+   padding: 10px;
+   font-size: 20px;
+   margin-right: 10px;
+ }
+
+ #about p,
+ #location p,
+ #gallery p,
+ #contact p {
+   font-size: 17px;
+   color: #686868;
+ }
+
+ /* ________________ location ________________  */
+
+ #location {
+   background-color: #D9D9D9;
+   padding: 5%;
+ }
+
+ #location p {
+   margin: 30px 0;
+ }
+
+ #location .location-image {
+   width: 40%;
+   display: inline-block;
+   margin-left: 5%;
+   vertical-align: middle;
+ }
+
+ #location .location-content {
+   width: 50%;
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+ /* ________________ gallery ________________  */
+
+ #gallery {
+   text-align: center;
+   padding: 5%;
+   overflow: hidden;
+ }
+
+ #gallery .gallery-item {
+   width: 30%;
+   float: left;
+   margin: 1%;
+ }
+
+ #gallery p,
+ img {
+   margin: 20px 0;
+ }
+
+ /* ________________ contact ________________  */
+
+ #contact {
+   padding: 5%;
+   background-color: #D9D9D9;
+   overflow: hidden;
+ }
+
+ #contact .contact-content {
+   float: left;
+   width: 50%;
+ }
+
+ #contact .contact-content p {
+   margin: 20px 0;
+ }
+
+ #contact i {
+   background-color: #8F7854;
+   color: #fff;
+   font-size: 18px;
+   padding: 10px;
+   border-radius: 50%;
+   margin-right: 10px;
+ }
+
+ #contact .fa-map {
+   padding: 12px 10px;
+ }
+
+ #contact .contact-map {
+   width: 45%;
+   float: right;
+ }
+
+ /* ________________ footer ________________  */
+
+ #footer {
+   background-color: #403D38;
+   overflow: hidden;
+   padding: 5%;
+ }
+
+ #footer .footer-content {
+   float: left;
+   width: 23%;
+   margin: 0 1%;
+ }
+
+ #footer h5 {
+   color: #fff;
+   margin-bottom: 20px;
+ }
+
+ #footer .last-footer {
+   overflow: hidden;
+   padding-top: 10px;
+ }
+
+ #footer .last-footer .first-para-icon {
+   float: left;
+ }
+
+ #footer .last-footer .first-para {
+   width: 90%;
+   line-height: 30px;
+ }
+
+ #footer p {
+   color: #969696;
+   margin-bottom: 10px;
+ }
+
+ #footer p i {
+   font-size: 12px;
+   margin-right: 5px;
+ }
+
+ #footer .footer-border p {
+   padding-bottom: 10px;
+   border-bottom: 1px solid #504d4a;
+ }
+
+ #footer .footer-border p:last-child,
+ #footer .footer-border .last-footer:last-child {
+   border: none;
+ }
+
+ #footer .footer-border .last-footer a {
+   text-decoration: none;
+   color: #969696;
+   cursor: pointer;
+   z-index: 55555;
+ }
+
+ #footer .footer-border .last-footer a:hover {
+   color: #fff;
+ }
+
+ #footer .footer-border span {
+   font-size: 13px;
+ }
+
+ #footer .footer-border .last-footer i {
+   font-size: 16px;
+   color: #969696;
+   margin-right: 10px;
+
+ }
+
+ #footer .footer-border:last-child {
+   position: relative;
+ }
+
+ #footer .footer-border:last-child:before {
+   content: ' ';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0.2;
+   background-image: url(../images/contact-details-map.png);
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+
+ #footer .footer-border .last-footer {
+   border-bottom: 1px solid #504d4a;
+   position: relative;
+ }
+
+ #footer .footer-border .last-footer p {
+   padding: 0;
+   display: inline-block;
+ }
+
+ /* ________________ rights ________________  */
+
+ #rights {
+   background-color: #353330;
+   text-align: center;
+   color: #777777;
+   padding: 3%;
+ }
+
+ #rights img {
+   width: 25%;
+ }
+
+ #rights p {
+   margin: 20px 0;
+ }
+
+ #rights i {
+   background-color: #484540;
+   padding: 10px;
+   border-radius: 50%;
+   font-size: 20px;
+   margin: 5px;
+   cursor: pointer;
+ }
+
+ #rights .fa-facebook-f {
+   padding: 10px 15px;
+ }
+
+ #rights .fa-facebook-f:hover {
+   background-color: #3B5998;
+   color: #fff;
+ }
+
+ #rights .fa-google-plus-g:hover {
+   background-color: #DD4B39;
+   color: #fff;
+ }
+
+ #rights .fa-linkedin-in {
+   padding: 10px 15px;
+ }
+
+ #rights .fa-linkedin-in:hover {
+   background-color: #007BB5;
+   color: #fff;
+ }
+
+ #rights .fa-twitter {
+   padding: 10px 12px;
+ }
+
+ #rights .fa-twitter:hover {
+   background-color: #00ACED;
+   color: #fff;
+ }
